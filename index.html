@@ -30,8 +30,45 @@
                         <a href="#reach-out">Reach Out</a>
                     </li>
                 </ul>
-            </nav>
+            </nav>   
         </header>
+
+        <!-- Hero Image / Sign Up Form -->
+        <section class="hero">
+            <div class="hero-form">
+                <h3>Get Started Today!</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult.</p>
+                <!-- Add for element -->
+                <form>
+                    <!-- Name input -->
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+                    <!-- Email input -->
+                    <label for="email">Enter email:</label>
+                    <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
+                    <!-- Phone # input -->
+                    <label for="phone">Enter a telephone number:</label>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
+                    <p>
+                        <!-- Radio Button -->
+                        Have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">No</label>
+                    </p>
+                    <p>
+                        <!-- Over 18? -->
+                        I acknowledge that I am at least 18 years of age.
+                        <input type="checkbox" name="age-confirm" id="age-yes" />
+                        <label for="age-yes"></label>
+                    </p>
+                    <button type="submit">
+                        Get Running!
+                    </button>
+                </form>
+            </div>
+        </section>
 
         <!-- hero/jumpotron -->
         <section>
@@ -39,13 +76,46 @@
         </section>
 
         <!-- "what we do" section -->
-        <section>
+        <section id="what-we-do">
             <h2>What We Do</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, dignissimos. Hic deserunt id repellat perspiciatis eveniet eligendi laudantium! Iusto magni modi harum maxime necessitatibus aspernatur est explicabo et vel quaerat!
+            </p>
         </section>
          
         <!-- "what you do" section -->
-        <section>
+        <section id="what-you-do">
             <h2>What You Do</h2>
+
+            <div>
+                <!-- SVG Image 1 -->
+                <img src="./assets/images/step-1.svg" alt="" />
+                <h3>Step 1: Fill Out the Form Above.</h3>
+                <p>You're already here so why not?</p>
+            </div>
+
+            <div>
+                <!-- SVG Image 2 -->
+                <img src="./assets/images/step-2.svg" alt="" />
+                <h3>Step 2: Consult with One of Our Trainers.</h3>
+                <p>
+                    Are you here to build muscle, lose weight, or just feel good?
+                </p>
+
+                <div>
+                    <!-- SVG Image 3 -->
+                    <img src ="./assets/images/step-3.svg" alt="" />
+                    <h3>Step 3: Get Running.</h3>
+                    <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+                </div>
+
+                <div>
+                    <!-- SVG Image 4 -->
+                    <img src="./assets/images/step-4.svg" alt="" />
+                    <h3>Step 4: See Results.</h3>
+                    <p>Bi-weekly checkins with your trainer will you focused.</p>
+                </div>
+            </div>
         </section>
 
         <!-- "meet your trainers" section-->
